@@ -1,0 +1,14 @@
+#article-section h2 {
+    color: #F26938;
+    margin-top: 100px;
+}
+.article-img {
+    display: block;
+    margin: 50px auto;
+}
+.content-detail {
+    font-size: 25px;
+}
+.author-name {
+    text-align: right;
+}

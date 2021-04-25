@@ -1,0 +1,14 @@
+#promotion {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#promotion h1 {
+    font-weight: 800;
+    color: #F26938;
+    margin: 100px 0;
+}
+#promotion .read-more-button {
+    width: 50%;
+    display: inline-block;
+    margin: 20px auto;
+}

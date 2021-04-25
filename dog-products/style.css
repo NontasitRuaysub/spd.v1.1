@@ -1,0 +1,73 @@
+
+body {
+    background-color: #FFF8EE;
+}
+/* Header */
+.dog-food-header {
+    margin: 50px auto;
+}
+header .food-icon-with-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.food-icon-with-text h2 {
+    color: #F26938;
+    margin-left: 50px;
+    font-weight: 800;
+}
+/* Use for type food header */
+.food-icon-with-text {
+    display: flex;
+    align-items: center;
+}
+.food-icon-with-text h3 {
+    margin-left: 30px;
+    color: #F26938;
+}
+/* CTA Section */
+#cta-section {
+    margin-top: 100px;
+}
+/* link */
+.page-link-group {
+    width: 100%;
+    margin-top: 100px;
+}
+.page-link {
+    text-align: right;
+    
+}
+.page-link a {
+    font-size: 25px;
+    color: black;
+}
+
+/* Responsive Section */
+/* Responsive 320px - 767px */
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+    /* Header */
+    .food-icon-with-text h2 {
+        color: #F26938;
+        font-weight: 800;
+        font-size: 40px;
+        margin-left: 0;
+
+    }
+    header .food-icon-with-text {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+/* Responsive 1216px up */
+@media only screen and (min-width: 1216px) {
+    /* Header */
+    .dog-food-header {
+        margin: 100px auto;
+    }
+    .food-icon-with-text h2 {
+        margin-left: 50px;
+    }
+    
+}
